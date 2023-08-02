@@ -7,7 +7,7 @@
                   certificate, device certificate, and private key must all be accessible in the working environment. To run the script without a Python IDE, run "python {script_name}.py"
                   in the computer terminal and press enter. Ensure the path is specified as well.
 
-    Authors: Jacob Price and Drake Christensen
+    Authors: Jacob Price
     Date Created: July 20, 2023
     Last Modified: Jul 31, 2023
 '''
