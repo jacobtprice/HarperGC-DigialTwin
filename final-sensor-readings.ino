@@ -2,7 +2,7 @@
   Project Title: Sensor Readings for AWS TwinMaker Integration
   Description: This Arduino sketch will read data from 2 DHT11 sensors and a breakbeam sensor and return values to the serial monitor
   
-  Authors: Jacob Price and Drake Christensen
+  Authors: Jacob Price
   Date Created: July 20, 2023
   Last Modified: July 31, 2023
 */
