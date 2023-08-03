@@ -21,19 +21,19 @@ import psutil
 
 #%% Broker / certifcation configuration
 # AWS IoT Core endpoint
-mqtt_broker_endpoint = "a4gwbsni06dqq-ats.iot.us-east-1.amazonaws.com"
+mqtt_broker_endpoint = "{my-endpoint}.amazonaws.com"
 
 # Thing's certificate files; ensure file path is correct
-root_ca_path = 'certs3/AmazonRootCA1.pem'
-cert_path = 'certs3/device-cert.pem.crt'
-key_path = 'certs3/private.pem.key'
+root_ca_path = 'AmazonRootCA1.pem'
+cert_path = 'device-cert.pem.crt'
+key_path = 'private.pem.key'
 
 # The topic to which the message is published, change if applicable
-topic = "arduino/temphumid"
+topic = "my/topic"
 
 #%% sending messages
 # Reads data from serial monitor; change port as necessary
-arduino = serial.Serial("COM3", 9600, timeout=1)
+arduino = serial.Serial("port", 9600, timeout=1)
 
 # Initializing temperature/humidity values
 temperature_old = 0
